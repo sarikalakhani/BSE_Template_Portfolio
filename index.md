@@ -20,6 +20,4 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 # First Milestone
 My first milestone is testing my ultrasonic sensor. My first step was to learn about how an ultrasonic sensor functions. The sensor emmits ultrasonic sound waves to an object and times the emission and reception of the wave; therefore, the sensor is able to derive the distance from the sensor to the object. After, I was able to code my arduino. My last step was assembly. I connected wires from by sensor to my arduino and the same for my buzzer. 
 
-(file:///Users/sarikalakhani/Desktop/Screen%20Shot%202021-06-25%20at%208.22.51%20AM.png)
-
 [![First Milestone][![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1624634012/video_to_markdown/images/youtube---ZwjPb01SVY-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/-ZwjPb01SVY "First Milestone") {:target="_blank" rel="noopener"}
