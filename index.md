@@ -39,53 +39,53 @@ Using the Arduino chip and application, I code my robot to not encounter any obj
   h. Connect the positive pin on the buzzer to pin - 10 on the Arduino. 
   i. Connect the negative pin on the buzzer to pin GND on the Arduino. 
   j. Copy and paste the following code to your Arduino application. There are comments in the code for clarification. 
-  '// initiallized trigger pin and echo
- // initialized trigger pin to 2 and echo pin to 3 because they are connected to those pins on the arduino 
- // initialized the busser pin and the variable that calculates distance 
-  int trigger_pin = 2;
-  int echo_pin = 3;
-  int buzzer_pin = 10;
-  int time;
-  int distance;
-
- // the trigger pin is set as output becasue it sends the ultrasonic wave
- // the  echo pin is set as input because it recieves the ultrasonic wave
-void setup() {
+ '// initiallized trigger pin and echo'
+ '// initialized trigger pin to 2 and echo pin to 3 because they are connected to those pins on the arduino' 
+ '// initialized the busser pin and the variable that calculates distance' 
+  'int trigger_pin = 2;'
+  'int echo_pin = 3;'
+  'int buzzer_pin = 10;'
+  'int time;'
+  'int distance;'
+''
+ '// the trigger pin is set as output becasue it sends the ultrasonic wave'
+ '// the  echo pin is set as input because it recieves the ultrasonic wave'
+'void setup() {'
   
-  Serial.begin (9600);
-  pinMode (trigger_pin, OUTPUT);
-  pinMode (echo_pin, INPUT);
-  pinMode (buzzer_pin, OUTPUT);
+  'Serial.begin (9600);'
+  'pinMode (trigger_pin, OUTPUT);'
+  'pinMode (echo_pin, INPUT);'
+  'pinMode (buzzer_pin, OUTPUT);'
 
-}
+'}'
 
-void loop() {
-  // Made the trigger pin and echo pin "HIGH" to send and recieve the ultrasonic wave
-  // Added the equation to get the distance
-  digitalWrite (trigger_pin, HIGH);
-  delayMicroseconds (10);
-  digitalWrite (trigger_pin, LOW);
-  time = pulseIn (echo_pin, HIGH);
-  distance = (time * 0.034) / 2;
+'void loop() {'
+  '// Made the trigger pin and echo pin "HIGH" to send and recieve the ultrasonic wave'
+  '// Added the equation to get the distance'
+  'digitalWrite (trigger_pin, HIGH);'
+  'delayMicroseconds (10);'
+  'digitalWrite (trigger_pin, LOW);'
+  'time = pulseIn (echo_pin, HIGH);'
+  'distance = (time * 0.034) / 2;'
+''
+  'if (distance <= 15) {
+    '// If statement translates to: if there is an object in a distance of 15 or less the buzzer will go off' 
+    'Serial.println (" Door Open ");'
+    'Serial.println (" Distance= ");'
+    'Serial.println (distance);'
+    'digitalWrite (buzzer_pin, HIGH);'
+    'delay (500);'
+  '}'
 
-  if (distance <= 15) {
-    // If statement translates to "if there is an object in a distance of 15 or less the buzzer will go off" 
-    Serial.println (" Door Open ");
-    Serial.println (" Distance= ");
-    Serial.println (distance);
-    digitalWrite (buzzer_pin, HIGH);
-    delay (500);
-  }
+  'else {'
+    'Serial.println (" Door closed ");'
+    'Serial.print (" Distance = ");'
+    'Serial.println (distance);'
+    'digitalWrite (buzzer_pin, LOW);'
+    'delay (500);'
+  '}'
 
-  else {
-    Serial.println (" Door closed ");
-    Serial.print (" Distance = ");
-    Serial.println (distance);
-    digitalWrite (buzzer_pin, LOW);
-    delay (500);
-  }
-
-}' 
+'}' 
   k. Run the code. Make sure to save it as well. Use this video to check if your board looks and works the same: https://youtu.be/-ZwjPb01SVY
 
 
