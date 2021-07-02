@@ -3,9 +3,9 @@ Using the Arduino chip and application, I code my robot to not encounter any obj
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Sarika Lakhani | Henry M. Gunn High school | NA | Incoming Junior
+| Sarika Lakhani | Henry M. Gunn High school | Electrical Engineer | Incoming Junior
 
-![Add pic of final project](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
+![Add pic of final project](add link of pic here)
 
 # Materials
 1. Arduino
@@ -16,6 +16,7 @@ Using the Arduino chip and application, I code my robot to not encounter any obj
 6. Pliers 
 7. Soulder 
 8. Souldering Wires
+9. add materials for second and third milestone
 
 # Building Steps 
 
@@ -38,7 +39,9 @@ Using the Arduino chip and application, I code my robot to not encounter any obj
   c. Using the buzzer, the Arduino, and the jumper wires:<br/>
       - Connect the positive pin on the buzzer to pin - 10 on the Arduino<br/> 
       - Connect the negative pin on the buzzer to pin GND on the Arduino<br/>
-  d. Copy and paste the following code to your Arduino application. There are comments in the code for clarification<br/> 
+  d. Copy and paste the following code to your Arduino application. There are comments in the code for clarification<br/>
+3. add steps for second milestone
+4. add steps for final milestone
 ```
  // initiallized trigger pin and echo
  // initialized trigger pin to 2 and echo pin to 3 because they are connected to those pins on the arduino 
@@ -90,11 +93,16 @@ void loop() {
 ```
   k. Run the code. Make sure to save it as well. Use this video to check if your board looks and works the same: https://youtu.be/-ZwjPb01SVY \
 
+# Reflection
+- growth
+- self discovery
+- next steps
+- how engineering effects the world
 
 # Final Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
+third milestone. 
 
-[![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
+[![Final Milestone]("add video to markdown of third milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
 My second milestone is driving my motor. I first built my circuit. I have never worked with a motor driver until now, and I have never used batteries in my circuits until now. The first atleast ten times I ran my circuit my motors did not move, and I was making edits to my code. I learned that my code was not the problem but where I put my pins on my Arduino was the problem. I learned that I should have placed my wires on the PWM pins on my Arduino Uno. PWM pins allow different components of my circuit to run at the same time. 
