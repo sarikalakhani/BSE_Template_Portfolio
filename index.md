@@ -21,24 +21,24 @@ Using the Arduino chip and application, I code my robot to not encounter any obj
 
 1. Make the Arduino blink.\
   a. Download the Arduino software on the website arduino.cc\
-  b. Connect the USB cord from a computer to an Arduino. (Adapters may be needed depending on computer model).\ 
+  b. Connect the USB cord from a computer to an Arduino. (Adapters may be needed depending on computer model)\ 
   c. Open the Arduino software\
-  d. Go to the top left of your screen. File → Examples → Basics → Blink. This opens a new Arduino window with the code to make an Arduino board blink.\ 
-  e. Go to the top left of your screen. Tools → Board → Arduino/Genuino Uno. This ensures that the code will go to the Arduino Board.\ 
-  f. Go to the top left of your screen. Tools → Port → (Arduino/Genuino Uno). This also ensures that the code will go to the Arduino Boards.\ 
-  g. Upload the code.\ 
+  d. Go to the top left of your screen. File → Examples → Basics → Blink. This opens a new Arduino window with the code to make an Arduino board blink\ 
+  e. Go to the top left of your screen. Tools → Board → Arduino/Genuino Uno. This ensures that the code will go to the Arduino Board\ 
+  f. Go to the top left of your screen. Tools → Port → (Arduino/Genuino Uno). This also ensures that the code will go to the Arduino Boards\ 
+  g. Upload the code\ 
   h. If the Arduino Board is not blinking go to the website. https://support.arduino.cc/hc/en-us \
 2. Run ultrasonic sensor\ 
-  a. Collect materials (Female to male jumper wires, Arduino board, and buzzer).\ 
+  a. Collect materials (Female to male jumper wires, Arduino board, and buzzer)\ 
   b. Using the ultrasonic sensor, the Arduino, and the jumper wires:\
-    i.   Connect VCC on the ultrasonic sensor to 5V on the Arduino.\ 
-    ii.  Connect the Trig pin on the ultrasonic sensor to pin 2 on the Arduino.\
-    iii. Connect the Echo pin on the ultrasonic sensor to pin 3 on the Arduino.\
-    iv.  Connect the GND on the ultrasonic sensor to the GND on the Arduino.\
+    i.   Connect VCC on the ultrasonic sensor to 5V on the Arduino\ 
+    ii.  Connect the Trig pin on the ultrasonic sensor to pin 2 on the Arduino\
+    iii. Connect the Echo pin on the ultrasonic sensor to pin 3 on the Arduino\
+    iv.  Connect the GND on the ultrasonic sensor to the GND on the Arduino\
   g. Using the buzzer, the Arduino, and the jumper wires:\
-  h. Connect the positive pin on the buzzer to pin - 10 on the Arduino.\ 
-  i. Connect the negative pin on the buzzer to pin GND on the Arduino.\ 
-  j. Copy and paste the following code to your Arduino application. There are comments in the code for clarification.\ 
+  h. Connect the positive pin on the buzzer to pin - 10 on the Arduino\ 
+  i. Connect the negative pin on the buzzer to pin GND on the Arduino\ 
+  j. Copy and paste the following code to your Arduino application. There are comments in the code for clarification\ 
 ```
  // initiallized trigger pin and echo
  // initialized trigger pin to 2 and echo pin to 3 because they are connected to those pins on the arduino 
