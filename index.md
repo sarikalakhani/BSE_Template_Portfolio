@@ -19,7 +19,7 @@ Using the Arduino chip and application, I code my robot to not encounter any obj
 
 # Building Steps 
 
-1. Make the Arduino blink. 
+1. Make the Arduino blink.\
   a. Download the Arduino software on the website arduino.cc 
   b. Connect the USB cord from a computer to an Arduino. (Adapters may be needed depending on computer model). 
   c. Open the Arduino software
