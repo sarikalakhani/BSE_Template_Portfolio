@@ -14,8 +14,8 @@ Using the Arduino chip and application, I code my robot to not encounter any obj
 4. Sensor 
 5. Piezo Buzzer 
 6. Pliers 
-7. Soulder 
-8. Souldering Wires
+7. Solder 
+8. Soldering Wires
 9. add materials for second and third milestone
 
 # Building Steps 
