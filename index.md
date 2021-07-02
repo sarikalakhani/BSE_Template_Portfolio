@@ -39,7 +39,7 @@ Using the Arduino chip and application, I code my robot to not encounter any obj
   h. Connect the positive pin on the buzzer to pin - 10 on the Arduino. 
   i. Connect the negative pin on the buzzer to pin GND on the Arduino. 
   j. Copy and paste the following code to your Arduino application. There are comments in the code for clarification. 
- '''
+```
  // initiallized trigger pin and echo
  // initialized trigger pin to 2 and echo pin to 3 because they are connected to those pins on the arduino 
  // initialized the busser pin and the variable that calculates distance 
@@ -87,7 +87,7 @@ void loop() {
   }
 
 }
-'''
+```
   k. Run the code. Make sure to save it as well. Use this video to check if your board looks and works the same: https://youtu.be/-ZwjPb01SVY
 
 
