@@ -107,9 +107,9 @@ third milestone.
 # Second Milestone
 My second milestone is driving my motor. I first built my circuit. I have never worked with a motor driver until now, and I have never used batteries in my circuits until now. The first atleast ten times I ran my circuit my motors did not move, and I was making edits to my code. I learned that my code was not the problem but where I put my pins on my Arduino was the problem. I learned that I should have placed my wires on the PWM pins on my Arduino Uno. PWM pins allow different components of my circuit to run at the same time. 
 
-[![Third Milestone]([![Second Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1625233008/video_to_markdown/images/youtube--A50zeyaOhtw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/A50zeyaOhtw "Second Milestone")){:target="_blank" rel="noopener"}
+[![Second Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1625233008/video_to_markdown/images/youtube--A50zeyaOhtw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/A50zeyaOhtw "Second Milestone"){:target="_blank" rel="noopener"}
 
 # First Milestone
 My first milestone is testing my ultrasonic sensor. My first step was to learn about how an ultrasonic sensor functions. The sensor emmits ultrasonic sound waves to an object and times the emission and reception of the wave; therefore, the sensor is able to derive the distance from the sensor to the object. After, I was able to code my arduino. My last step was assembly. I connected wires from by sensor to my arduino and the same for my buzzer. 
 
-[![First Milestone][![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1624634012/video_to_markdown/images/youtube---ZwjPb01SVY-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/-ZwjPb01SVY "First Milestone") {:target="_blank" rel="noopener"}
+[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1624634012/video_to_markdown/images/youtube---ZwjPb01SVY-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/-ZwjPb01SVY "First Milestone") {:target="_blank" rel="noopener"}
