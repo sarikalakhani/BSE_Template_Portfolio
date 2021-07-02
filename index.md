@@ -31,14 +31,14 @@ Using the Arduino chip and application, I code my robot to not encounter any obj
 2. Run ultrasonic sensor<br/> 
   a. Collect materials (Female to male jumper wires, Arduino board, and buzzer)<br/> 
   b. Using the ultrasonic sensor, the Arduino, and the jumper wires:<br/>
-    i.   Connect VCC on the ultrasonic sensor to 5V on the Arduino<br/>
-    ii.  Connect the Trig pin on the ultrasonic sensor to pin 2 on the Arduino<br/>
-    iii. Connect the Echo pin on the ultrasonic sensor to pin 3 on the Arduino<br/>
-    iv.  Connect the GND on the ultrasonic sensor to the GND on the Arduino\
-  g. Using the buzzer, the Arduino, and the jumper wires:<br/>
-  h. Connect the positive pin on the buzzer to pin - 10 on the Arduino<br/> 
-  i. Connect the negative pin on the buzzer to pin GND on the Arduino<br/>
-  j. Copy and paste the following code to your Arduino application. There are comments in the code for clarification<br/> 
+      - Connect VCC on the ultrasonic sensor to 5V on the Arduino<br/>
+      - Connect the Trig pin on the ultrasonic sensor to pin 2 on the Arduino<br/>
+      - Connect the Echo pin on the ultrasonic sensor to pin 3 on the Arduino<br/>
+      - Connect the GND on the ultrasonic sensor to the GND on the Arduino\
+  c. Using the buzzer, the Arduino, and the jumper wires:<br/>
+      - Connect the positive pin on the buzzer to pin - 10 on the Arduino<br/> 
+      - Connect the negative pin on the buzzer to pin GND on the Arduino<br/>
+  d. Copy and paste the following code to your Arduino application. There are comments in the code for clarification<br/> 
 ```
  // initiallized trigger pin and echo
  // initialized trigger pin to 2 and echo pin to 3 because they are connected to those pins on the arduino 
