@@ -97,7 +97,7 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 [![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint.
+My second milestone is driving my motor. I first built my circuit. I have never worked with a motor driver until now, and I have never used batteries in my circuits until now. The first atleast ten times I ran my circuit my motors did not move, and I was making edits to my code. I learned that my code was not the problem but where I put my pins on my Arduino was the problem. I learned that I should have placed my wires on the PWM pins on my Arduino Uno. PWM pins allow different components of my circuit to run at the same time. 
 
 [![Third Milestone]([![Second Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1625233008/video_to_markdown/images/youtube--A50zeyaOhtw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/A50zeyaOhtw "Second Milestone")){:target="_blank" rel="noopener"}
 
