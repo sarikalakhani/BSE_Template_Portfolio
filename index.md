@@ -90,7 +90,7 @@ void loop() {
 }
 ```
   k. Run the code. Make sure to save it as well. Use this video to check if your board looks and works the same: https://youtu.be/-ZwjPb01SVY<br/>
-3. add steps for second milestone
+3. add steps for second milestone <br/>
 4. add steps for final milestone
 
 # Reflection
